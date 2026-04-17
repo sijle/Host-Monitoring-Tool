@@ -1,4 +1,4 @@
-# Host-Monitoring-Tool
+# Host Monitoring Tool
 # 🐍 Python 全维度系统监控工具
 
 这是一个基于 Python 和 Tkinter 开发的图形化系统资源监控工具。它能够实时显示 CPU、内存、磁盘、网络以及 NVIDIA GPU 的使用情况，并提供进程级别的资源占用列表。
