@@ -29,8 +29,8 @@ class SystemMonitorApp:
         self.root.geometry("1300x950")
 
         # --- 调整布局权重：大幅增加表格区域占比 ---
-        self.root.grid_rowconfigure(1, weight=2)  # 图表区域 (权重减小)
-        self.root.grid_rowconfigure(2, weight=3)  # 表格区域 (权重增大，占据更多空间)
+        self.root.grid_rowconfigure(1, weight=2)  # 图表区域 (权重较小，占据更少空间)
+        self.root.grid_rowconfigure(2, weight=3)  # 表格区域 (权重较大，占据更多空间)
         self.root.grid_columnconfigure(0, weight=1)
 
         # --- 数据结构 (双端队列用于存储历史数据) ---
